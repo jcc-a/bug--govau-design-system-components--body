@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <link href="./pancake/css/pancake.min.css" rel="stylesheet">
+        <link href="./style.css" rel="stylesheet">
+        <title>Bug - @govau/design-system-components/body - Background printing</title>
+    </head>
+    <body>
+        <div class="au-body">
+            <h1>Bug - @govau/design-system-components/body</h1>
+
+            <h2>Background printing</h2>
+
+            <p>Google Maps added with <a href="https://developers.google.com/maps/documentation/javascript/examples/map-simple">Google Maps JavaScript API</a> are not printed.</p>
+            
+            <h2>Actual results</h2>
+            <div id="map"></div>
+        </div>
+        <script src="./script.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
+    </body>
+</html>
